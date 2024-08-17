@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 3em 0;
+    text-align: center;
+    opacity: 1.8;
+}
+
+.cta-button {
+    background: #f04e30;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: dodgerblue;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    filter: drop-shadow(2px 2px #000);
+}
+
+.btn:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
+
+section p {    
+    color: #fff;
+}
+
+#community-programs p {
+    color: #000;
+}
+
+#networking-opportunities P {
+    color: #000;
+}
+
+#community-outreach p {
+    color: #000;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
