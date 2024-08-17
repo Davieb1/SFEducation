@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports and Fitness Education</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Sports and Fitness Education</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Academic Support</a></li>
+                <li><a href="fitness&health.html">Fitness and Health</a></li>
+                <li><a href="research.html">Research and Data</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="professional-development.html">Professional Development</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Empowering Students in Sports and Fitness</h2>
+        <p>Your go-to resource for academic support, fitness assessments, and community engagement.</p>
+        <a href="#featured-workshops" class="cta-button">View Workshops</a>
+    </section>
+
+    <section id="academic-support">
+        <h2>Academic Support</h2>
+        <p>Find instructional videos, guides, and workshop schedules to enhance your learning.</p>
+        <ul>
+            <h1><strong>Instructional Videos</strong></h1> Equipment Usage
+            Video Title: "How to Use Common Gym Equipment Safely"<br>
+
+            Video Description: This video provides a comprehensive guide to using common gym equipment, such as
+            treadmills, rowing machines, and weightlifting gear. Learn the proper form, settings, and safety tips to
+            avoid injury while maximizing your workout.<br> <br>
+            Watch Video <br><video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+            </video><br><br>
+
+            Video Title: "Free Weights: Techniques for Beginners"<br>
+
+            Video Description: This video is perfect for beginners looking to start using free weights. We cover
+            fundamental exercises like squats, deadlifts, and bench presses, focusing on technique, breathing, and
+            muscle engagement.<br><br>
+
+            Watch Video <br><video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+            </video><br><br><br><br>
+
+            <strong>Exercise Techniques</strong><br>
+            Video Title: "Basic Exercise Techniques for Strength Training"<br>
+            Video Description: This video covers the basics of strength training exercises, including push-ups,
+            pull-ups, squats, and lunges. Learn the correct form, how to engage the right muscles, and avoid common
+            mistakes to improve your strength safely.<br><br>
+
+            Watch Video <br><video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+            </video><br><br><br><br>
+
+            Video Title: "Cardio Workouts: Best Practices"<br>
+            Video Description: Enhance your cardio workouts with this instructional video. Learn about different
+            cardio
+            methods like interval training and steady-state cardio, and how to incorporate these into your fitness
+            routine for better heart health and endurance.<br><br>
+
+            Watch Video <br><video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+            </video><br><br>
+            <br><br>
+
+
+            <!-- Guide & Resources -->
+            <h1><strong>Guides and Resources</strong></h1>
+            <br><video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+            </video><br><br>
+
+            <button onclick="showModal()" class="btn">Download</button>
+
+            <div id="myModal" style="display:none;">
+                <div>
+                    <p>Select a file to download</p>
+                    <a href="https://www.nsca.com/contentassets/2a0a87ccabbe4a149dd915168b20d603/nsca-safety-checklist.pdf?srsltid=AfmBOooxbSyvqh6v3_fe412tCJjP_jEXIlya5fCnba4Q9Wall4be8OPD"
+                        target="_blank" download>Gym Safety Guide</a><br>
+                    <a href="https://www.scienceforsport.com/wp-content/uploads/2018/04/LM-Warm-Ups.pdf" target="_blank"
+                        download>Sports Warm-ups</a><br>
+                    <a href="https://s29.q4cdn.com/175625835/files/doc_downloads/test.pdf" target="_blank"
+                        download>Generic PDF</a><br>
+                    <button onclick="closeModal()">Close</button>
+                </div>
+            </div>
+            <br><br>
+
+            <!-- Workshop Content -->
+            <h1><strong>Workshop Calendar</strong></h1>
+            <br><video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+            </video><br><br>
+
+        </ul>
+    </section>
+
+    
+
+    <footer>
+        <p>&copy; 2024 Sports and Fitness Education. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showModal() {
+            document.getElementById('myModal').style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('myModal').style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>

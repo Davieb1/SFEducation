@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports and Fitness Education</title>
+    <link rel="stylesheet" href="C:\Users\44797\OneDrive\Desktop\Coding Projects\Sport-Fitness\CSS\fitness.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Sports and Fitness Education</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Academic Support</a></li>
+                <li><a href="fitness&health.html">Fitness and Health</a></li>
+                <li><a href="research.html">Research and Data</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="professional-development.html">Professional Development</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Empowering Students in Sports and Fitness</h2>
+        <p>Your go-to resource for academic support, fitness assessments, and community engagement.</p>
+        <a href="featured-workshops" class="cta-button">View Workshops</a>
+    </section>
+
+    <section id="fitness-assessments">
+        <h2>Fitness Assessments</h2>
+        <p>Explore our online tools and resources to assess and track your fitness progress. Whether you're looking to
+            measure your cardiovascular fitness, strength, or flexibility, we've got you covered.</p>
+        <ul>
+            <h1><strong>Online Assessment Tools</strong></h1>
+            <ul>
+                <strong>V02 Max Calculator:</strong> Estimate your cardiovascular fitness level with our V02 Max
+                calculator.<br>
+                <strong>Body Mass Index (BMI):</strong> Calculate your BMI to understand you body composition.
+                <br>
+                <strong>Flexibility Test Guide:</strong> Follow our interactive guide to measure your
+                flexibility and track your improvements.<br>
+                <strong>Strength Assessment:</strong> Estimate your one-rep max for key exercises like bench
+                press and squat.
+            </ul>
+
+            <h1><strong>Guides & Articles</strong></h1>
+            <ul>
+                <strong>Understanding Fitness Assessments:</strong> Learn why regular fitness assessments are
+                important and how to interpret the results.<br>
+                <strong>How to Conduct a Comprehensive Fitness Assessment:</strong> A step-by-step guide to
+                performing your own assessments.
+            </ul>
+
+
+            <h1><strong>Progress Tracking Resources</strong></h1>
+            <ul>
+                <strong>Workout Log Template:</strong> Download our workout log template to track your exercise
+                routines and progress.<br>
+                <strong>Goal Setting Worksheet:</strong> Use our goal setting worksheet to set SMART fitness
+                goals and stay motivated.
+
+            </ul><br>
+
+            <!-- Button and Modal for Online Tools Download -->
+            <button onclick="showModal('myModal')" class="btn">Online Tools Download</button>
+
+            <div id="myModal" style="display:none;">
+                <div>
+                    <p style="color: black;">Select a file to download</p>
+                    <a href="https://www.brianmac.co.uk/vo2race.htm" target="_blank" download>V02 Max Calculator</a><br>
+                    <a href="https://patient.info/doctor/bmi-calculator" target="_blank" download>BMI Calculator</a><br>
+                    <a href="https://www.topendsports.com/testing/tests/sit-and-reach.htm" target="_blank" download>Flexibility Test Guide</a><br>
+                    <a href="https://strengthlevel.com/strength-standards" target="_blank" download>Strength Assessment</a><br>
+                    <button onclick="closeModal('myModal')">Close</button>
+                </div>
+            </div>
+
+            <!-- Button and Modal for Guides Download -->
+            <button onclick="showModal('guides')" class="btn">Guides Download</button>
+
+            <div id="guides" style="display:none;">
+                <div>
+                    <p style="color: black;">Select a file to download</p>
+                    <a href="https://educatefitness.co.uk/fitness-assessments-essential-components-for-success/#:~:text=A%20fitness%20assessment%20systematically%20evaluates,body%20composition%2C%20and%20muscular%20endurance."
+                        target="_blank" download>Understanding Fitness Assessments</a><br>
+                    <a href="https://www.topendsports.com/testing/guide-conduct.htm" target="_blank" download>How to Conduct a Comprehensive Fitness Assessment</a><br>
+                    <button onclick="closeModal('guides')">Close</button>
+                </div>
+            </div>
+
+            <!-- Button and Modal for Progress Tracking Download -->
+            <button onclick="showModal('progress')" class="btn">Progress Tracking Download</button>
+
+            <div id="progress" style="display:none;">
+                <div>
+                    <p style="color: black;">Select a file to download</p>
+                    <a href="https://www.vertex42.com/ExcelTemplates/workout-log.html" target="_blank" download>Download our workout log template to track your exercise routines and progress</a><br>
+                    <a href="https://www.actmindfully.com.au/upimages/Goal_Setting_Worksheet.pdf" target="_blank" download>Use our goal setting worksheet to set SMART fitness goals and stay motivated</a><br>
+                    <button onclick="closeModal('progress')">Close</button>
+                </div>
+            </div>
+            <!-- JavaScript to Show and Close Modals -->
+    </section>
+
+    <section id="injury-prevention">
+        <h2>Injury Prevention</h2>
+        <p>Preventing injuries is a crucial aspect of fitness training. Here are some tips and resources. Learn the best
+            practices for warming up, cooling down, and maintaining proper form during your workouts.
+        </p>
+
+        <h3>Articles</h3>
+        <ul>
+            <li><a href="https://www.topendsports.com/testing/tests">Fitness Testing</a></li>
+            <li><a href="https://www.nhsinform.scot/healthy-living/keeping-active/warm-up-and-cool-down-activities/">Essential Routines</a></li>
+            <li><a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/sports-injuries/preventing-sports-injuries">Injury Prevention</a></li>
+        </ul>
+
+        <h3>Interactive Content</h3>
+        <ul>
+            <strong>Injury Prevention 101:</strong>A video series covering different aspects of injury prevention,
+            including proper footwear and safe lifting practices.<br> <video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+            </video><br><br>
+
+            <strong>Injury Risk Assessment Quiz:</strong>Take our quiz to identify your risk factors for sports
+            injuries and receive personalised tips. [insert quiz here...]
+        </ul>
+    </section>
+
+    <section id="nutrition-wellness">
+        <h2>Nutrition & Wellness</h2>
+        <p>Nutrition plays a crucial role in achieving your fitness goals. Explore our resources on sports nutrition,
+            meal planning, and overall wellness to fuel your body and enhance your performance.</p>
+
+        <h3>Articles and Guides</h3>
+        <ul>
+            <strong>Fueling Your Fitness: A Beginner's Guide to Sports Nutrition:</strong> Learn the basics of
+            sports nutrition, including macronutrient needs and hydration strategies.<br>
+            <strong>Meal Planning for Athletes:</strong> Get tips on planning meals that support your training, with
+            sample meal plans and recipes.<br>
+            <strong>The Importance of Hydration in Sports Performance:</strong> Understand how proper hydration can
+            boost your performance and prevent fatigue.
+        </ul>
+
+        <h3>Interactive Tools and Resources</h3>
+        <ul>
+            <strong>Daily Caloric Needs Calculator:</strong> Use our calculator to determine your daily caloric
+            needs based on your fitness goals.<br>
+            <strong>Nutrition Tracker:</strong> Log your daily food intake and track your macronutrient distribution
+            with our online tracker.
+        </ul>
+
+        <h3>Workshops and Events</h3>
+        <ul>
+            <strong>Nutrition for Performance:</strong> Attend our workshop to learn about nutritional strategies
+            that enhance sports performance.<br>
+            <strong>Injury Prevention 101:</strong> A video series covering different aspects of injury
+            prevention, including proper footwear and safe lifting practices.<br> <video width="320" height="240"
+                controls>
+                <source src="video.mp4" type="video/mp4">
+            </video><br>
+
+            <strong>Healthy Cooking Demonstrations:</strong> Watch our live or recorded demonstrations to learn how
+            to prepare healthy, performance-boosting meals.<br>
+            <strong>Injury Prevention 101:</strong> A video series covering different aspects of injury
+            prevention, including proper footwear and safe lifting practices.<br> <video width="320" height="240"
+                controls>
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sports and Fitness Education. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript to Show and Close Modals -->
+    <script src="script.js"></script>
+</body>
+
+</html>
